@@ -9,10 +9,10 @@ public class ServletTest extends JettyHarness {
 
     @Test
     public void itCanAccesMainPage() throws Exception {
-        String result = get(getBaseUri() + "/guess");
+        String result = get(getBaseUri() + "/");
 
         assertTrue(StringUtils.isNotEmpty(result));
-        assertTrue(result.contains("Hello"));
+        assertTrue(result.contains("Guess a number"));
 
     }
 
