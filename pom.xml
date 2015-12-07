@@ -53,6 +53,9 @@
         </dependencies>
         <configuration>
           <scanIntervalSeconds>3</scanIntervalSeconds>
+          <webApp>
+            <contextPath>/guess</contextPath>
+          </webApp>
         </configuration>
       </plugin>
 
